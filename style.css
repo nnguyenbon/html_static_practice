@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,h1,h2,h3,h4,h5 {
+    font-family: "Raleway", sans-serif !important;
+}
+
+body {
+    width: 100%;
+}
+
+.idk-either {
+    width: 96%;
+    margin: 0 2%;
+}
+
+main {
+    width: 65% !important;
+}
+
+.aside-section {
+    width: 31% !important;
+}
+
+.blog-section {
+    margin-bottom: 5%;
+}
+
+.blogimg {
+    width: 100%;
+}
+
+.blog-section .btn {
+    border: 1px solid rgb(225, 225, 225);
+}
+
+.myname-section {
+    margin-bottom: 10% !important;
+}
+
+.myname-section img {
+    width: 100%;
+}
+
+.popular-section, .tag-section {
+    margin-bottom: 10%;
+}
+
+.bg-grey {
+    background-color: rgb(244, 244, 244);
+}
+
+.popular-content {
+    border-bottom: 0.5px solid rgb(225, 225, 225);
+}
+
+.popular-content:hover {
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+}
+
+.popularimg {
+    width: 11%;
+}
+
+.tag-section li {
+    font-size: 80%;
+}
+
+.bg-grayyyy {
+    width: 100%;
+    background-color: grey;
+}
+
+@media screen and (max-width:1200px) {
+    .container-fluid {
+        width: 100% !important;
+    }
+
+    .idk-either {
+        flex-wrap: wrap;
+    }
+}
