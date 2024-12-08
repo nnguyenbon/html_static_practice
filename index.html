@@ -16,7 +16,7 @@
 
 <body>
     <header class="container-fluid text-center header my-5">
-        <h1 class="h1 text-uppercase pb-3">my blog</h1>
+        <h1 class="h1 text-uppercase pb-3" id="blog_title">my blog</h1>
         <p class="fs-6">Welcome to the blog of <span class="px-2 py-1 bg-dark text-white">unknown</span></p>
     </header>
 
@@ -131,9 +131,14 @@
         </aside>
     </div>
     <footer class="container-fluid p-5 mx-0 bg-grayyyy">
-        <input type="button" value="Previous" class="btn bg-secondary text-white p-3 px-4" disabled>
-        <input type="button" value="Next >>" class="btn bg-dark text-white mx-2 p-3 px-4">
+        <input type="button" value="Previous" id="previous-button" class="btn bg-secondary text-white p-3 px-4"
+            onclick="previous()">
+        <input type="button" value="Next >>" id="next-button" class="btn bg-dark text-white mx-2 p-3 px-4"
+            onclick="next()">
+
+        <p id="page-indicator" style="margin-top: 10px;">Page: 1/5</p>
     </footer>
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>

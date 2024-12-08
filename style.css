@@ -26,6 +26,7 @@ main {
 
 .blog-section {
     margin-bottom: 5%;
+    background-color: white;
 }
 
 .blogimg {
@@ -38,6 +39,7 @@ main {
 
 .myname-section {
     margin-bottom: 10% !important;
+    background-color: white;
 }
 
 .myname-section img {
@@ -46,6 +48,7 @@ main {
 
 .popular-section, .tag-section {
     margin-bottom: 10%;
+    background-color: white;
 }
 
 .bg-grey {
@@ -71,7 +74,7 @@ main {
 
 .bg-grayyyy {
     width: 100%;
-    background-color: grey;
+    background-color: #808080;
 }
 
 @media screen and (max-width:1200px) {
